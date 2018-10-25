@@ -253,7 +253,7 @@ Quit the server with CONTROL-C.
 Ojo solo lo podremos ver e nuestra maquina local, para abrir desde otra ubicación dentro de nuestra red local, debemos correr el comando de la siguiente manera:
 
 ```console
-(envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ ./manage.py runserver
+(envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ ./manage.py runserver 0.0.0.0:8000
 ```
 
 ## 5- Modelando los datos ##
@@ -946,6 +946,6 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMDU1MDY4NiwtMjExODE4MjkzMiwtMT
+eyJoaXN0b3J5IjpbMjEzMjUwNDUzNCwtMjExODE4MjkzMiwtMT
 Y0OTUzMTc0XX0=
 -->
