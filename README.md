@@ -841,9 +841,9 @@ server {
 root@nombre_maquina:/# supervisorctl start proyectoPrueba
 ```
 
->Puedes ir al navegador agregar la excepción para proyectoPrueba.org, escribir esa misma URL en la barra de busqueda y listo, apligación desplegada.
+>Puedes ir al navegador agregar la excepción para proyectoPrueba.org, escribir esa misma URL en la barra de busqueda y listo, aplicación desplegada.
 
-### 12.2- Despliegue con apache2 ###
+### 12.2- Despliegue con apache2
 
 >Modificar el archivo wsgy.py que está en /var/www/envPrueba/proyectoPrueba/proyectoPrueba/wsgy.py con el siguiente contenido:
 
@@ -946,6 +946,6 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5MDgzNDA3MCwtMjExODE4MjkzMiwtMT
-Y0OTUzMTc0XX0=
+eyJoaXN0b3J5IjpbOTI2MzU4NzQxLC0yMTE4MTgyOTMyLC0xNj
+Q5NTMxNzRdfQ==
 -->
