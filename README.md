@@ -109,9 +109,9 @@ user@nombre_maquina:/var/www/envPrueba$ source bin/activate
 (envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ ./manage.py startapp aplicacionPrueba
 ```
 
-### 4.1- Registrar la nueva aplicación en el proyecto ###
+### 4.1- Registrar la nueva aplicación en el proyecto
 
-Después de crear una aplicación también necesitamos decirle a Django que debe utilizarla. Con el editor de su preferencia abrir el archivo: var/www/envPrueba/proyectoPrueba/proyectoPrueba/settinds.py
+Después de crear una aplicación también necesitamos decirle a Django que debe utilizarla. Con el editor de su preferencia abrir el archivo: var/www/envPrueba/proyectoPrueba/proyectoPrueba/settings.py
 
 En la sección "INSTALLED_APPS" agregar:
 
@@ -940,5 +940,5 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDk1MzE3NF19
+eyJoaXN0b3J5IjpbLTExMDc5NTcyNzYsLTE2NDk1MzE3NF19
 -->
