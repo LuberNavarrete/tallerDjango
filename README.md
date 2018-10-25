@@ -256,7 +256,7 @@ Ojo solo lo podremos ver e nuestra maquina local, para abrir desde otra ubicaci�
 (envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ ./manage.py runserver 0.0.0.0:8000
 ```
 
-## 5- Modelando los datos ##
+## 5- Modelando los datos
 
 Los modelos de datos en Django son objetos (propiedades y métodos) que el mapeo objeto-relacional (ORM) usa para interactuar entre Django (python) y la base de datos. Existe una enorme cantidad de documentación para Django y para los modelos no hay excepción.
 
@@ -946,6 +946,6 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjEzMjUwNDUzNCwtMjExODE4MjkzMiwtMT
+eyJoaXN0b3J5IjpbLTkxMTg2MTA5MCwtMjExODE4MjkzMiwtMT
 Y0OTUzMTc0XX0=
 -->
