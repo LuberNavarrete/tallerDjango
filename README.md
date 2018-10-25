@@ -353,7 +353,7 @@ Luego hay que decirle a Django que ejecute ese script para que se hagan efectivo
 
 Ahora puedes ir a tu DBMS y verificar que se crearon las tablas correspondientes a tús modelos Django.  Muchas mas cosas (atributos o propiedades y metodos) se pueden escribir en el archivo **models.py**, lee la documentación de tu preferencia para explorar todas las posibilidades.
 
-## 6- Administrador de django ##
+## 6- Administrador de django
 
 Una de las partes más poderosas de Django es la interfaz de administración automática. Django admin lee los metadatos de sus modelos para proporcionar una interfaz sencilla, rápida, centrada en el modelo y visualmente agradable.
 
@@ -409,7 +409,7 @@ class ParroquiaAdmin(admin.ModelAdmin):
     pass
 ```
 
-Ahora puedes volver a ingreasar en el admin de tú aplicación y podras ver como nuestros modelos ahora cuentan con una interce gráfica para listar, agregar, editar y eliminar registros.
+Ahora puedes volver a ingreasar en el admin de tú aplicación y podras ver como nuestros modelos ahora cuentan con una interface gráfica para listar, agregar, editar y eliminar registros.
 
 Ya esta GUI es bastante buena, pero se puede mejorar un poco. En la línea de comandos escribe lo siguiente:
 
@@ -417,7 +417,7 @@ Ya esta GUI es bastante buena, pero se puede mejorar un poco. En la línea de co
 (envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ pip install django-suit
 ```
 
-Loque hicimos fue instalar un nuevo conjunto de plantillas para el Django admin. Ahora abre el archivo: /var/www/envPrueba/proyectoPrueba/proyectoPrueba/settinds.py y en la sección "INSTALLED_APPS" despues de la línea agregar:
+Lo que hicimos fue instalar un nuevo conjunto de plantillas para el Django admin. Ahora abre el archivo: /var/www/envPrueba/proyectoPrueba/proyectoPrueba/settings.py y en la sección "INSTALLED_APPS" despues de la línea agregar:
 
 ```python
 INSTALLED_APPS = [
@@ -946,6 +946,6 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkxMTg2MTA5MCwtMjExODE4MjkzMiwtMT
-Y0OTUzMTc0XX0=
+eyJoaXN0b3J5IjpbLTE4NDI4NDM2MjIsLTIxMTgxODI5MzIsLT
+E2NDk1MzE3NF19
 -->
