@@ -152,7 +152,7 @@ Luego ejecuta en la consola el siguiente comando:
 
 Listo puedes comenzar a interactuar con tu repositorio de control de versiones git.
 
-### 4.2- Modificar el bloque de conexión a la base de datos ###
+### 4.2- Modificar el bloque de conexión a la base de datos
 
 * Instalar psycopg2 para poder conectar con las bases de datos PostgreSQL:
 
@@ -160,7 +160,7 @@ Listo puedes comenzar a interactuar con tu repositorio de control de versiones g
 (envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ pip install psycopg2-binary
 ```
 
-Con el editor de su preferencia abrir el archivo: /var/www/envPrueba/proyectoPrueba/proyectoPrueba/settinds.py
+Con el editor de su preferencia abrir el archivo: /var/www/envPrueba/proyectoPrueba/proyectoPrueba/settings.py
 
 Reemplazar la sección "DATABASES" por:
 
@@ -180,7 +180,7 @@ DATABASES = {
 }
 ```
 
-### 4.3- Escribir en la base de datos las migraciones que vienen por defecto ###
+### 4.3- Escribir en la base de datos las migraciones que vienen por defecto
 
 Django viene con algunos módulos por defecto que facilitan mucho el desarrollo de aplicaciones. Algunos de estos módulos deben escribir algunas tablas en la base de datos, pero nosotros debemos darle la instrucción para que pueda hacerlo.
 
@@ -188,7 +188,7 @@ Django viene con algunos módulos por defecto que facilitan mucho el desarrollo 
 (envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ ./manage.py migrate
 ```
 
-### 4.4- Crear un usuario súper administrador ###
+### 4.4- Crear un usuario súper administrador
 
 Como he mencionado más arriba Django viene con varias capacidades por defecto. Una de ellas es que ya instalamos un completo y muy seguro sistema de gestión de usuarios. En este punto ya podemos crear un usuario para ir probando en el futuro próximo las aplicaciones en nuestro proyecto:
 
@@ -198,9 +198,9 @@ Como he mencionado más arriba Django viene con varias capacidades por defecto. 
 
 >Les advierto que la clave que escriban debe ser una clave de al menos 8 caracteres, no puede ser solo numérica y no puede ser una clave común. Si quieren poder poner una clave del 1 al 6 (NO LO RECOMIENDO) deben comentar el bloque de código AUTH_PASSWORD_VALIDATORS del archivo settings.py.
 
-### 4.5- Modificar la internacionalización (idioma) ###
+### 4.5- Modificar la internacionalización (idioma)
 
-Con el editor de su preferencia abrir el archivo: /var/www/envPrueba/proyectoPrueba/proyectoPrueba/settinds.py
+Con el editor de su preferencia abrir el archivo: /var/www/envPrueba/proyectoPrueba/proyectoPrueba/settings.py
 
 Ubicar el bloque internacionalización en el archivo settings.py y reemplazarlo por:
 
@@ -212,11 +212,11 @@ TIME_ZONE = 'America/Caracas'
 
 ```
 
-### 4.6- Ubicación de archivos estáticos ###
+### 4.6- Ubicación de archivos estáticos
 
 También necesitaremos agregar una ruta para los archivos estáticos (aprenderemos todo sobre los archivos estáticos más tarde).
 
-Con el editor de su preferencia abrir el archivo: /var/www/envPrueba/proyectoPrueba/proyectoPrueba/settinds.py
+Con el editor de su preferencia abrir el archivo: /var/www/envPrueba/proyectoPrueba/proyectoPrueba/settings.py
 
 Ve hacia abajo hasta el final del archivo y reemplazar las lines MEDIA_URL, MEDIA_ROOT, STATIC_URL, STATIC_ROOT, por:
 
@@ -230,7 +230,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 STATIC_ROOT = 'static'
 ```
 
-### 4.7- Probar nuestro proyecto ###
+### 4.7- Probar nuestro proyecto
 
 Ahora hay que probar todo a quedado bien instalado y configurado y que nuestro proyecto está funcionando. Para esto debemos levantar el servidor de desarrollo que viene junto a Django:
 
@@ -940,5 +940,6 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMTgxODI5MzIsLTE2NDk1MzE3NF19
+eyJoaXN0b3J5IjpbNjMxNjU3NTUsLTIxMTgxODI5MzIsLTE2ND
+k1MzE3NF19
 -->
