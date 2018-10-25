@@ -122,7 +122,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-Nota: si trabajas con git problamente quieras ignorar convenientemente algunos archivos (*.pyc). Es necesa para ello crea en tu directorio de proyecto el archivo .gitignore con el siguiente contenido:
+Nota: si trabajas con git problamente quieras ignorar convenientemente algunos archivos (*.pyc). Es necesario para ello crea en tu directorio de proyecto el archivo .gitignore con el siguiente contenido:
 
 ```INI
 *.egg-info
@@ -940,5 +940,5 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDc5NTcyNzYsLTE2NDk1MzE3NF19
+eyJoaXN0b3J5IjpbLTIxMTgxODI5MzIsLTE2NDk1MzE3NF19
 -->
