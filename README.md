@@ -1,9 +1,9 @@
-# Django: taller teórico práctico #
+# Django: taller teórico práctico
 
-## A modo de introducción ##
+## A modo de introducción
 
 ___
-**29 de septiembre de 2018**: Acabo de publicar este taller para compartirlo con mis colegas de la comunidad. Lo publico con las esperanza de que se despersonalice de mi, se mejora y ayude a todos los que queremos seguir aprendiendo por medio de la enseñanaza, pero que tambien ayude a todos aquellos que quieran iniciarce en este mundo del desarrollo con Django.
+**29 de septiembre de 2018**: Acabo de publicar este taller para compartirlo con mis colegas de la comunidad. Lo publico con las esperanza de que se despersonalice de mi, se mejora y ayude a todos los que queremos seguir aprendiendo por medio de la enseñanza, pero que también ayude a todos aquellos que quieran iniciarse en este mundo del desarrollo con Django.
 
 ___
 No soy el profeta del desarrollo de software, solo les puedo hablar y escribir de lo poco que se y la verdad es que no se mucho. Por esa razón, esto no es un "curso", es un taller en el que, en mayor o en menor medida, todos vamos a aprender algo.
@@ -939,3 +939,6 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 ![NoComercial](nc.svg) NoComercial — No puede utilizar el material para una finalidad comercial.
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTE5NTM0NTg1XX0=
+-->
