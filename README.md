@@ -8,16 +8,16 @@ ___
 ___
 No soy el profeta del desarrollo de software, solo les puedo hablar y escribir de lo poco que se y la verdad es que no se mucho. Por esa razón, esto no es un "curso", es un taller en el que, en mayor o en menor medida, todos vamos a aprender algo.
 
-Lo primero que tienes que saber para convertirte en desarrollador de software, es que tienes que leer. Si, leer y leer mucho, y cuando creas que ya leíste suficiente entonces esa es la señal de que debes leer más. Leer para aprender, leer para mejorar lo que aprendiste, leer para corregir un error, leer para despues escribir, leer para enterarte de que no has leído suficiente
+Lo primero que tienes que saber para convertirte en desarrollador de software, es que tienes que leer. Si, leer y leer mucho, y cuando creas que ya leíste suficiente entonces esa es la señal de que debes leer más. Leer para aprender, leer para mejorar lo que aprendiste, leer para corregir un error, leer para después escribir, leer para enterarte de que no has leído suficiente
 
 Elaborado por: Gersón D. Vizquel A.
 Marzo 2018
 Agradeciemiento a Erick Ramírez por sus aportes de valor
 ___
 
-Para trabajar en equipo, desarrollando en cualquier lenguaje de programación, se debe convenir en como escribir el código. Ya existen estándares definidos por lacomunidad como los PSRx para PHP y el PEPx para python. Les recomiendo (POR FAVOR) revisarlos y ponerlos en practica, tanto para codificar como para documentar el código.
+Para trabajar en equipo, desarrollando en cualquier lenguaje de programación, se debe convenir en como escribir el código. Ya existen estándares definidos por la comunidad como los PSRx para PHP y el PEPx para python. Les recomiendo (POR FAVOR) revisarlos y ponerlos en practica, tanto para codificar como para documentar el código.
 
-## 1- ¿Que es Django? ##
+## 1- ¿Que es Django?
 
 ![El framework web para ponis con poderes magicos](djangopony.png)
 
@@ -940,5 +940,5 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE5NTM0NTg1XX0=
+eyJoaXN0b3J5IjpbNzAxNTYwNTY1XX0=
 -->
