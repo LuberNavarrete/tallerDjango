@@ -235,7 +235,7 @@ STATIC_ROOT = 'static'
 Ahora hay que probar todo a quedado bien instalado y configurado y que nuestro proyecto está funcionando. Para esto debemos levantar el servidor de desarrollo que viene junto a Django:
 
 ```console
-(envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ ./manage.py runserver 127.0.0.1:8000
+(envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ ./manage.py runserver
 ```
 
 Si todo lo has hecho al pie de la letra y yo no cometí algún error de omisión deberían ver algo como esto:
@@ -249,6 +249,12 @@ Quit the server with CONTROL-C.
 ```
 
 >Para ver nuestro proyecto en funcionamiento, con el navegador web de su preferencia, abra la url <http://127.0.0.1:8000/admin>
+
+Ojo solo lo podremos ver e nuestra maquina local, para abrir desde otra ubicación dentro de nuestra red local, debemos correr el comando de la siguiente manera:
+
+```console
+(envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ ./manage.py runserver
+```
 
 ## 5- Modelando los datos ##
 
@@ -940,6 +946,6 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjMxNjU3NTUsLTIxMTgxODI5MzIsLTE2ND
-k1MzE3NF19
+eyJoaXN0b3J5IjpbMTQzMDU1MDY4NiwtMjExODE4MjkzMiwtMT
+Y0OTUzMTc0XX0=
 -->
