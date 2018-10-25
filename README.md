@@ -37,7 +37,7 @@ Django está centrado en el desarrollo rápido de aplicaciones web y sobre todo 
 
 * Permisos: En Django se tiene control de los permisos a tal punto de decir que usuario puede o no crear, editar, ver y eliminar registros de un modelo especifico.
 
-* Bases de Datos: Django cuenta con un ORM que nos permite preocuparnos en la lógica de nuestra aplicación dejando delega al ORM la responsabilidad de la comunicación con la base de datos, es compatible con los principales motores de bases de datos como PostgreSQL, MySQL, MariaDB, SQLite, Oracle, SQLServer entre otros.
+* Bases de Datos: Django cuenta con un ORM que nos permite preocuparnos en la lógica de nuestra aplicación delegando al ORM la responsabilidad de la comunicación con la base de datos, es compatible con los principales motores de bases de datos como PostgreSQL, MySQL, MariaDB, SQLite, Oracle, SQLServer entre otros.
 
 * Extensible: Django puede ser extendido fácilmente instalando paquetes adicionales para crear aplicaciones una tienda, un blog o un API Restful, se encuentran agrupados y ordenados en Django Packages.
 
@@ -45,7 +45,7 @@ Django está centrado en el desarrollo rápido de aplicaciones web y sobre todo 
 
 * Documentación: Django tiene una documentación muy completa que te enseña con ejemplos de código como implementar o usar cada una de sus características.
 
-## 2- Requisitos par el taller ##
+## 2- Requisitos par el taller
 
 * Debian 9
 * PostgreSQL
@@ -940,5 +940,5 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MDQ1MTg2N119
+eyJoaXN0b3J5IjpbLTY1MDE0NTEzOV19
 -->
