@@ -55,7 +55,7 @@ Django está centrado en el desarrollo rápido de aplicaciones web y sobre todo 
 * git
 * Editor de texto de su preferencia: VS Code, Atom, Vim, nano, vi, emacs
 
-### 2.1- Instalar postgresql y crear base de datos de prueba ###
+### 2.1- Instalar postgresql y crear base de datos de prueba
 
 ```console
 user@nombre_maquina:~$ su -
@@ -69,21 +69,21 @@ postgres@nombre_maquina:~$ exit
 root@nombre_maquina:/# /etc/init.d/postgresql restart
 ```
 
-Con los siguientes comandos puedes hacer y restaurar respaldos comprimidos dePostgreSQL:
+Con los siguientes comandos puedes hacer y restaurar respaldos comprimidos de PostgreSQL:
 
 ```console
 pg_dump -F c -O -x -U usuario -W -h localhost -Z 6 -f /ruta/archivo.sqlc -d BaseDeDatos -n esquema -t tabla
 pg_restore -F c -U usuario -W -h localhost /ruta/archivo.sqlc -d BaseDeDatos -n esquema -t tabla
 ```
 
-### 2.2- Instalar python3 python3-pip python3-virtualenv ###
+### 2.2- Instalar python3 python3-pip python3-virtualenv
 
 ```console
 user@nombre_maquina:~$ su -
 root@nombre_maquina:/# aptitude install python3 python3-pip python3-virtualenv
 ```
 
-## 3- Crear el entorno virtual ##
+## 3- Crear el entorno virtual
 
 ```console
 root@nombre_maquina:/# cd /var/www
@@ -92,7 +92,7 @@ root@nombre_maquina:/# chown usuario:root -R envPrueba
 root@nombre_maquina:/# exit
 ```
 
-### 3.1- Activar y actualizar el entorno virtual ###
+### 3.1- Activar y actualizar el entorno virtual
 
 ```console
 user@nombre_maquina:~$ cd /var/www/envPrueba
@@ -100,7 +100,7 @@ user@nombre_maquina:/var/www/envPrueba$ source bin/activate
 (envPrueba) user@nombre_maquina:/var/www/envPrueba$ pip install -U virtualenv pip
 ```
 
-## 4- Instalar Django, crear un nuevo provecto y una nueva aplicación ##
+## 4- Instalar Django, crear un nuevo provecto y una nueva aplicación
 
 ```console
 (envPrueba) user@nombre_maquina:/var/www/envPrueba$ pip install Django
@@ -940,5 +940,5 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY1MDE0NTEzOV19
+eyJoaXN0b3J5IjpbLTE2NDk1MzE3NF19
 -->
