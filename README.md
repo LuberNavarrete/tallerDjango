@@ -434,13 +434,13 @@ INSTALLED_APPS = [
 
 Refresca tu admin en el navegador y veras ahora el admin con un nuevo aspecto mucho mas agradable.
 
-## 7- Formularios ##
+## 7- Formularios
 
-## 8- Vista: la logica de nuestro desarrollo ##
+## 8- Vista: la lógica de nuestro desarrollo
 
-En Django una vista es un bloque de codigo que contiene algo de logica para nuestro software. Puede ser tan simple como renderizar en el navegador un ¡Hola Mundo! hasta operaciones de cualquier área de la matematica.
+En Django una vista es un bloque de código que contiene algo de lógica para nuestro software. Puede ser tan simple como renderizar en el navegador un ¡Hola Mundo! hasta operaciones de cualquier área de la matematica.
 
-Modifiquemos un poco nuestras vistas para realizar un CRUD de los paises de nuestro modelo de datos.
+Modifiquemos un poco nuestras vistas para realizar un CRUD de los países de nuestro modelo de datos.
 
 Abre el archivo view.py de nuestra aplicación "***aplicacionPrueba***" y reemplaza el contenido con el siguiente código:
 
@@ -502,13 +502,13 @@ class ListarEstado(ListView):
 
 ```
 
-Estas son vistas muy sencilla. Para poder ver en funcionamiento cualquiera de nuestras vistas recien creadas debemos especificar cual es la URL (ruta) que nos permite acceder a ese recurso, veremos como crear nuestras URL's en el siguiente punto.
+Estas son vistas muy sencilla. Para poder ver en funcionamiento cualquiera de nuestras vistas recién creadas debemos especificar cual es la URL (ruta) que nos permite acceder a ese recurso, veremos como crear nuestras URL's en el siguiente punto.
 
 ## 9- URL's ##
 
 Una URL (Uniform Resource Locator) "... es una cadena de caracteres con la cual se asigna una dirección única a cada uno de los recursos de información disponibles en Internet. Localizador de recursos uniforme. (Sin fecha). En Wikipedia. Recuperado el 23 de marzo de 2018 de <https://es.wikipedia.org/wiki/Localizador_de_recursos_uniforme">
 
-Para Django un URL es una cadena de caracteres que apunta un proceso que a su vez renderiza directa o inderectamentea una plantilla HTML en nuestro navegador web.
+Para Django un URL es una cadena de caracteres que apunta un proceso que a su vez renderiza directa o inderectamente a una plantilla HTML en nuestro navegador web.
 
 Django posee una estructura jerarquica en sus URL, primero hay un archivo urls.py en la aplicación del proyecto desde el que se importan las URL descritas en los archivos urls.py que están dentro del directorio de cada aplicación.
 
@@ -526,11 +526,11 @@ urlpatterns = [
 ]
 ```
 
-Por esta razon es que todas las rutas de nuestra aplicación presedidas por "admin/" funcionan, porque buscan todas las posibles conbinaciones que existen el er archivo urls.py de la aplicacion admin.
+Por esta razón es que todas las rutas de nuestra aplicación precedidas por "admin/" funcionan, porque buscan todas las posibles combinaciones que existen en el archivo urls.py de la aplicación admin.
 
 Ahora crearemos las URL de nuestra aplicación de prueba.
 
-Con el editor de tú preferencia crea el archivo urls.py en la raiz de tú aplicación ***aplicacionPrueba*** y agregale el siguiente contenido:
+Con el editor de tú preferencia crea el archivo urls.py en la raíz de tú aplicación ***aplicacionPrueba*** y agrégale el siguiente contenido:
 
 ```python
 """Rutas de nuestra aplicación
@@ -572,7 +572,7 @@ urlpatterns = [
 
 Si levantas el servidor de desarrollo y vas consecuentemente a la ruta que creaste, veras el resultado de nuestra vista y nuestra ruta. Esta es una de las vistas y rutas mas sencillas que podemos realizar, sin embargo para una página web necesitaremos un poco mas que eso.
 
-## 10- Plantillas ##
+## 10- Plantillas
 
 Ya vimos y aprendimos los conceptos de iniciación en el desarrollo de aplicaciones con Django. Aprendimos a codificar funcionalidades más interesantes relacionadas con operaciones de consulta a nuestros modelos de datos, algun procesamiento lógico un poco más exigente y el **renderizado en plantillas html** para mejorar la experiencia de los usuarios en nuestra aplicación.
 
@@ -651,9 +651,9 @@ Como estamos extendiendo otra plantilla (base.html), tambien debemos crear esa p
 </html>
 ```
 
-## 11- Seguridad ##
+## 11- Seguridad
 
-## 12- Django: despliegue ##
+## 12- Django: despliegue
 
 El despliegue o como dirían en el imperio mesmo "the deployment" con nginx es el camino empedrao', largo tedioso y, por ser menos común, con el que solemos tener menos experiencia y por tanto más dificultades. A pesar de esto lo explicamos primero porque según los entendidos es el que mejor rendimiento tiene a la hora de servir aplicaciones python.
 
@@ -663,7 +663,7 @@ En caso de que vayamos a mover la aplicación a un servidor de producción, es i
 (envPrueba) user@nombre_maquina:/var/www/envPrueba/proyectoPrueba$ pip freeze > requerimientos.txt
 ```
 
-Edita el archivo ***requerimientos.txt*** y elimina la línea *pkg-respurces==0.0.0*
+Edita el archivo ***requerimientos.txt*** y elimina la línea *pkg-resources==0.0.0*
 
 En la nueva localidad de de nuestro proyecto, lo que debemos hacer es crear un entorno virtual como se explicó en los pasos 1.2 al 2.1. Luego en ese nuevo entorno virtual copiamos nuestra carpeta ***proyectoPrueba*** con todo su contenido. Ingresar a la carpeta ***proyectoPrueba*** y ejecutar el comando:
 
@@ -946,6 +946,6 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NDI4NDM2MjIsLTIxMTgxODI5MzIsLT
-E2NDk1MzE3NF19
+eyJoaXN0b3J5IjpbMTQ5MDgzNDA3MCwtMjExODE4MjkzMiwtMT
+Y0OTUzMTc0XX0=
 -->
