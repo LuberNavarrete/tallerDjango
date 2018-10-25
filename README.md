@@ -23,9 +23,9 @@ Para trabajar en equipo, desarrollando en cualquier lenguaje de programación, s
 
 Django es un framework construído en Python para desarrollo de aplicaciones web enfocado en la velocidad y la agilidad.
 
-Django está centrado en el desarrollo rápido de aplicaciones web y sobre todo usando el principio de la programación DRY (No te repitas) y es algo importante en el core de este framework.
+Django está centrado en el desarrollo rápido de aplicaciones web y sobre todo usando el principio de la programación DRY (Don't Repeat Yourself o sea No te repitas) y es algo importante en el core de este framework.
 
-### 1.1- Caracterisiticas resaltantes ###
+### 1.1- Características resaltantes
 
 * Administrador: Django cuenta con un administrador que viene activo por defecto donde se pueden con un par de líneas de código mostrar los modelos de las bases de datos y poder crear, editar, ver y eliminar registros (CRUD).
 
@@ -940,5 +940,5 @@ El licenciador no puede revocar estas libertades mientras cumpla con los términ
 
 ![CompartirIgual](cc.svg) CompartirIgual — Si remezcla, transforma o crea a partir del material, deberá difundir sus contribuciones bajo la misma licencia que el original.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzAxNTYwNTY1XX0=
+eyJoaXN0b3J5IjpbLTg3MDQ1MTg2N119
 -->
